@@ -11,6 +11,9 @@
     <modules>
         <module>tensquare_common</module>
         <module>tensquare_article</module>
+        <module>tensquare_user</module>
+        <module>tensquare_eureka</module>
+        <module>tensquare_encrypt</module>
     </modules>
 
     <parent>
@@ -43,5 +46,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+    <!--添加springcloud依赖-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Greenwich.SR1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>

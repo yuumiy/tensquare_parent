@@ -3,4 +3,6 @@
 *.iml
 */target/*
 */*.iml
-/.gradle/
+*/.gradle/*
+*/out/*
+out/

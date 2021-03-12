@@ -1,5 +1,5 @@
-# 基于springboot的学习论坛
+# 基于vue+springboot的论坛
 
 #### 介绍
-基于springboot开发，部分用到springcloud
+前后端分离，前端使用vue，后端使用springboot+springcloud
 
